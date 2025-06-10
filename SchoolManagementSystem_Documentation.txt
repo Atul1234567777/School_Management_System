@@ -1,0 +1,41 @@
+Title: School Management System (GUI-Based)
+
+Language: Java (Swing)
+
+Modules:
+---------
+1. Student.java
+   - Stores student ID, name, age, and grade.
+   - Provides toString() for displaying info.
+
+2. Teacher.java
+   - Stores teacher ID, name, and subject.
+   - Provides toString() for displaying info.
+
+3. SchoolManagementGUI.java
+   - Main GUI Application using JFrame.
+   - Contains buttons to add/view students and teachers.
+   - Uses ArrayList to store data in memory.
+   - Output displayed in a JTextArea.
+
+Features:
+---------
+- Add/View Students and Teachers.
+- Error-handling for invalid inputs.
+- Scrollable output display.
+- Modular and easy-to-extend design.
+
+Future Enhancements:
+---------------------
+- Add search, update, and delete features.
+- Save data to file or database.
+- User login functionality.
+- Export data as PDF.
+
+Grading Criteria:
+-----------------
+✅ Core Features Implemented  
+✅ Input Validation and Error Handling  
+✅ Event Handling with Button Listeners  
+✅ Well-organized and Modular Code  
+✅ Ready for Extension/Enhancement
